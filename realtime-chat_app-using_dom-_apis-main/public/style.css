@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.chatroom-container{
+    display:block;
+}
+.form-username{
+    display: none;
+}
+.chatroom-header{
+    background-color:#A2CDB0 ;
+    color:#176B87;
+    text-align: center;
+    font-size: 2rem;
+    /* border-radius: 10px; */
+    padding: 0.3rem;
+
+}
+.messages{
+    
+    display: flex;
+    flex-direction: column;
+    height: 85vh;
+}
+.message{
+    background-color: #A2CDB0;
+    width: fit-content;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 0.8rem;
+}
+.send{
+    align-self:flex-end;
+}
